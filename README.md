@@ -2,15 +2,15 @@
 
 ![Node.js](https://img.shields.io/badge/Node.js-v14+-green) ![TypeScript](https://img.shields.io/badge/TypeScript-v4+-blue) ![Express](https://img.shields.io/badge/Express-v4.17.1-lightgrey) ![License](https://img.shields.io/badge/license-MIT-brightgreen)
 
-Este projeto é uma API REST construída com **Node.js** e **TypeScript**, seguindo os princípios REST. A API é escalável, de fácil manutenção e modularizada.
-
+Projeto de API REST modularizada, construída com **Node.js** e **TypeScript**, seguindo os princípios REST.
 ## ✨ Funcionalidades
 
 - 🛠️ CRUD de recursos (Create, Read, Update, Delete)
 - 🔒 Autenticação e rotas protegidas
 - 🛡️ Validação de dados
 - 📄 Documentação automatizada com Swagger
-- 🗄️ Integração com banco de dados relacional (PostgreSQL/MySQL)
+- 🗄️ Integração com bando de dados não relacional MongoDB
+- 🗄️ Integração com banco de dados relacional PostgreSQL
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -26,11 +26,12 @@ Este projeto é uma API REST construída com **Node.js** e **TypeScript**, segui
 
 - **Node.js** versão 14 ou superior ![Node.js](https://img.shields.io/badge/-v14+-339933?logo=node.js&logoColor=white)
 - **npm** ou **yarn** ![npm](https://img.shields.io/badge/-npm-CB3837?logo=npm&logoColor=white) ![yarn](https://img.shields.io/badge/-yarn-2C8EBB?logo=yarn&logoColor=white)
-- **PostgreSQL** ou **MySQL** como banco de dados ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white)
+- **PostgreSQL** ou **MySQL** e **MongoDB** como banco de dados ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white)
+
 
 ## 🚀 Instalação
 
-1. Clone este repositório:
+1. Clone:
 
 ```bash
 git clone https://github.com/usuario/projeto-api-ts.git
