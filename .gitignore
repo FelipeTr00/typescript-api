@@ -1,0 +1,6 @@
+node_modules/
+nodemodules/
+.idea/
+.code/
+mongo_data/
+yarn.lock
