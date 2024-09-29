@@ -4,7 +4,7 @@ import UserController from './controllers/UserController'
 const routes = Router()
 
 routes.get('/', (req, res) => {
-    res.send('Hello, World');
+    res.json({ message: "Hello, World!" });
 });
 
 routes.get('/users', UserController.index)

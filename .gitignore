@@ -3,4 +3,6 @@ nodemodules/
 .idea/
 .code/
 mongo_data/
+db/mongo_data/
+db/postgres_data/
 yarn.lock

@@ -1,5 +1,6 @@
 version: '3.8'
 services:
+  # Serviço MongoDB
   mongo:
     image: mongo:latest
     container_name: mongodb
@@ -12,6 +13,20 @@ services:
       - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
     ports:
       - 27017:27017
+
+  # Serviço PostgreSQL
+  postgres:
+    image: postgres:latest
+    container_name: postgresdb
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: typescript_api
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+
 
 
 # Rodando com ``` docker compose up -d ```

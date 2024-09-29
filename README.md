@@ -40,4 +40,13 @@ git clone https://github.com/usuario/projeto-api-ts.git
 
 Para começar siga as intruções no [GET_STARTED.md](GET_STARTED.md)
 
-## ❄️ D.E.R
+## ❄️ API ROUTES
+
+### Rota '/' => 'Hello, World'
+
+![Rota Root](./assets/route-root.png)
+
+### Rota '/users' => UserController.JSON
+
+![Rota Users](./assets/route-users.png)
+
