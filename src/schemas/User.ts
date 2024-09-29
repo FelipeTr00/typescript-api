@@ -2,7 +2,7 @@ import { Schema, model } from "mongoose"
 
 const UserSchema = new Schema({
         email: String,
-        firsName: String,
+        firstName: String,
         lastName: String    
     }, {
         timestamps: true

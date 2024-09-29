@@ -1,3 +1,5 @@
+
+
 -- Create Items
 CREATE TABLE IF NOT EXISTS items (
   id SERIAL PRIMARY KEY,

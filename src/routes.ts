@@ -8,5 +8,7 @@ routes.get('/', (req, res) => {
 });
 
 routes.get('/users', UserController.index)
+routes.post('/users', UserController.store)
+
 
 export default routes

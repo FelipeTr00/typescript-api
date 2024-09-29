@@ -49,5 +49,12 @@ Para começar siga as intruções no [GET_STARTED.md](GET_STARTED.md)
 
 ### Rota '/users' => UserController.JSON
 
-![Rota Users](./assets/route-users.png)
+### GET
+
+![Rota Users](./assets/route-get-users.png)
+
+### POST
+
+![Rota Users](./assets/route-post-users.png)
+
 
