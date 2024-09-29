@@ -34,7 +34,7 @@ Projeto de API REST modularizada, construída com **Node.js** e **TypeScript**, 
 1. Clone:
 
 ```bash
-git clone https://github.com/usuario/projeto-api-ts.git
+git clone https://github.com/FelipeTr00/typescript-api-mongodb.git
 ```
 
 ## 💥 Get Started
