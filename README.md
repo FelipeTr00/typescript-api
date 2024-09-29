@@ -49,11 +49,11 @@ Para começar siga as intruções no [GET_STARTED.md](GET_STARTED.md)
 
 ### Rota '/users' => UserController.JSON
 
-### GET
+#### GET
 
 ![Rota Users](./assets/route-get-users.png)
 
-### POST
+#### POST
 
 ![Rota Users](./assets/route-post-users.png)
 
